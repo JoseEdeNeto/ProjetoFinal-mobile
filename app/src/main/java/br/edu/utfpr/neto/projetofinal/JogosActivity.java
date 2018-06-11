@@ -162,17 +162,19 @@ public class JogosActivity extends AppCompatActivity {
                 return true;
 
             case R.id.menuItemSobre:
-                chamarSobreActivity(findViewById(R.id.all));
+                chamarSobreActivity(findViewById(R.id.menuItemSobre));
+                return true;
 
             case R.id.menuItemPreferencias:
-                chamarPreferenciasActivity(findViewById(R.id.all));
+                chamarPreferenciasActivity(findViewById(R.id.menuItemPreferencias));
+                return true;
 
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
-    private void chamarPreferenciasActivity(View viewById) {
+    private void chamarPreferenciasActivity(View view) {
         Intent intent = new Intent(this, CorActivity.class);
         startActivity(intent);
     }

@@ -36,7 +36,7 @@
             android:parentActivityName=".JogosActivity" />
         <activity
             android:name=".CorActivity"
-            android:parentActivityName=".JogosActivity" ></activity>
+            android:parentActivityName=".JogosActivity" />
     </application>
 
 </manifest>

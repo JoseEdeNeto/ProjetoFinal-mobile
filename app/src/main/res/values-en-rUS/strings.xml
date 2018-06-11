@@ -46,4 +46,8 @@
     <string name="vermelho">Red</string>
     <string name="verde">Green</string>
     <string name="preferencias">Preferences</string>
+    <string name="midia">Media</string>
+    <string name="fisica">Physical</string>
+    <string name="digital">Digital</string>
+    <string name="midia_vazia">Select an media</string>
 </resources>
