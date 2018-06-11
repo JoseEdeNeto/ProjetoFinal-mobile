@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemNovo"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/novo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuItemEstado"
+        android:title="@string/estados"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuItemPlataforma"
+        android:title="@string/plataformas" />
+    <item
+        android:id="@+id/menuItemPreferencias"
+        android:title="@string/preferencias" />
+    <item
+        android:id="@+id/menuItemSobre"
+        android:title="@string/sobre" />
+</menu>
